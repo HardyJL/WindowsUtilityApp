@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GeneralComputing.ViewModel
+namespace GeneralComputing.ViewModels
 {
     using System.Linq;
     using System.Text;
