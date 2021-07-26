@@ -31,7 +31,6 @@ namespace GeneralComputing
             this.navigationServiceEx.Navigated += this.NavigationServiceEx_OnNavigated;
             this.HamburgerMenuControl.Content = this.navigationServiceEx.Frame;
 
-            // Navigate to the home page.
             this.Loaded += (sender, args) => this.navigationServiceEx.Navigate(new Uri("Views/MainPage.xaml", UriKind.RelativeOrAbsolute));
         }
 
