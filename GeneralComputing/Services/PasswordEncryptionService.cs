@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeneralComputing.Services
 {
-    class FirebaseConnect
+    class PasswordEncryptionService
     {
     }
 }
