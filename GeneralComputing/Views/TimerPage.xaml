@@ -1,0 +1,17 @@
+﻿<Page x:Class="GeneralComputing.Views.TimerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:GeneralComputing.Views"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TimerPage">
+
+    <Grid>
+        <TextBlock Text="{Binding myTimer}" TextAlignment="Center" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,128,0,0" VerticalAlignment="Top" Width="170" Height="25" />
+        <Button Content="Start" HorizontalAlignment="Left" Margin="302,174,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.458,-0.284" Command="{Binding StartTimerCommand}" />
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="360,174,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.458,-0.284" Command="{Binding StopTimerCommand}" />
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="418,174,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.458,-0.284" Command="{Binding ResetTimerCommand}" />
+    </Grid>
+</Page>

@@ -17,14 +17,14 @@ using System.Windows.Shapes;
 namespace GeneralComputing.Views
 {
     /// <summary>
-    /// Interaction logic for PasswordsPage.xaml
+    /// Interaction logic for TimerPage.xaml
     /// </summary>
-    public partial class PasswordsPage : Page
+    public partial class TimerPage : Page
     {
-        public PasswordsPage()
+        public TimerPage()
         {
             InitializeComponent();
-            DataContext = new PasswordViewModel();
+            DataContext = new TimerViewModel();
         }
     }
 }

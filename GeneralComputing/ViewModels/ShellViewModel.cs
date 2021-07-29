@@ -31,6 +31,13 @@ namespace GeneralComputing.ViewModels
             });
             this.OptionsMenu.Add(new MenuItem()
             {
+                Icon = new PackIconFontAwesome() { Kind = PackIconFontAwesomeKind.TimesCircleRegular },
+                Label = "Timer",
+                NavigationType = typeof(TimerPage),
+                NavigationDestination = new Uri("Views/TimerPage.xaml", UriKind.RelativeOrAbsolute)
+            });
+            this.OptionsMenu.Add(new MenuItem()
+            {
                 Icon = new PackIconFontAwesome() { Kind = PackIconFontAwesomeKind.CogsSolid },
                 Label = "Settings",
                 NavigationType = typeof(SettingsPage),
