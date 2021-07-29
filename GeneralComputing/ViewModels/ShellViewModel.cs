@@ -29,9 +29,9 @@ namespace GeneralComputing.ViewModels
                 NavigationType = typeof(PasswordsPage),
                 NavigationDestination = new Uri("Views/PasswordsPage.xaml", UriKind.RelativeOrAbsolute)
             });
-            this.OptionsMenu.Add(new MenuItem()
+            this.Menu.Add(new MenuItem()
             {
-                Icon = new PackIconFontAwesome() { Kind = PackIconFontAwesomeKind.TimesCircleRegular },
+                Icon = new PackIconFontAwesome() { Kind = PackIconFontAwesomeKind.ClockRegular },
                 Label = "Timer",
                 NavigationType = typeof(TimerPage),
                 NavigationDestination = new Uri("Views/TimerPage.xaml", UriKind.RelativeOrAbsolute)
