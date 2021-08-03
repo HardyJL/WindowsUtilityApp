@@ -9,7 +9,9 @@
   <ItemGroup>
     <PackageReference Include="MahApps.Metro" Version="2.4.7" />
     <PackageReference Include="MahApps.Metro.IconPacks" Version="4.8.0" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.1.7" />
     <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="ShowMeTheXAML" Version="2.0.0" />
   </ItemGroup>
 
 </Project>

@@ -56,14 +56,21 @@ namespace GeneralComputing.ViewModels
                 }
             }
         }
+        private void LoadPasswords()
+        {
+
+        }
         private void OnPasswordChanged(object obj)
         {
 
         }
         private void OnAddPasswordClicked(object obj)
         {
-            var pwd = Passwords[0].Password;
-            //throw new NotImplementedException();
+            PasswordDetailsWindow pdw = new PasswordDetailsWindow() { Owner = Application.Current.MainWindow };
+            if(pdw.ShowDialog().Value)
+            {
+                LoadPasswords();
+            }
         }
     }
 }

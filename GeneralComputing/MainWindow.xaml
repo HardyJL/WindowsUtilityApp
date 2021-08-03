@@ -12,7 +12,12 @@
                       GlowBrush="{DynamicResource MahApps.Brushes.AccentBase}"
                       WindowStartupLocation="CenterScreen"
                       WindowTransitionsEnabled="False"
-                  
+                  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
                       mc:Ignorable="d">
     <controls:MetroWindow.DataContext>
         <viewModels:ShellViewModel />
